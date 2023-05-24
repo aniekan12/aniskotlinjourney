@@ -2,7 +2,7 @@ package com.example.aniskotlinjourney
 
 fun main(){
     myFirstFunctionWithParameters("hmmm",2, listOf("boy","girl"))
-    myFirstFuntionWithParametersThatReturnsSomething("aniekan","we go soon know")
+    println(myFirstFuntionWithParametersThatReturnsSomething("aniekan"," we go soon know"))
 }
 
 fun myFirstFunctionWithParameters(wife_name:String, childrenNumber: Int, houses:List<String>){
@@ -10,7 +10,5 @@ fun myFirstFunctionWithParameters(wife_name:String, childrenNumber: Int, houses:
 
 }
 
-fun myFirstFuntionWithParametersThatReturnsSomething(husband:String, wife:String) : String{
-    var plusing = "$husband + $wife"
-    return plusing
-}
+fun myFirstFuntionWithParametersThatReturnsSomething(husband:String, wife:String) : String =
+     (husband + wife)
