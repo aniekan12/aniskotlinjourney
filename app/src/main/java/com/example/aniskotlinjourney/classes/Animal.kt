@@ -1,19 +1,18 @@
 package com.example.aniskotlinjourney.classes
 
 fun main(){
-    var dog  = Animal()
-    dog.color = "green"
-    dog.weight = 500
-    println("this dog is ${dog.color} and it weighs ${dog.weight}kg")
-    println(dog.barking())
+    var animal  = Animal("dog","red",200)
+    println("this dog is ${animal.color} and it weighs ${animal.weight}kg")
+    println(animal.barking())
+
 }
 
-class Animal {
+class Animal( var type : String,
+              var color : String,
+              var weight : Int,) {
 
     //properties
-    var type = "dog"
-    var color = "burgundy"
-    var weight = 200
+
 
     //behaviors
 
