@@ -1,9 +1,14 @@
 package com.example.aniskotlinjourney.classes
 
 fun main(){
-   var test = Musician("ani","drummer",12)
-    test.doesThisJob()
+//   var test = Musician("ani","drummer",12)
+//    test.doesThisJob()
 
+//    var test = BMW("i8","red","200")
+
+var music  = RAndB(genre = "Soul")
+    music.displayGenre()
+    music.displayGenreNow()
 }
 
 class Animal( var type : String,
@@ -11,6 +16,7 @@ class Animal( var type : String,
               var weight : Int,) {
 
     //properties
+
 
 
     //behaviors
