@@ -1,9 +1,8 @@
 package com.example.aniskotlinjourney.classes
 
 fun main(){
-    var animal  = Animal("dog","red",200)
-    println("this dog is ${animal.color} and it weighs ${animal.weight}kg")
-    println(animal.barking())
+   var test = Musician("ani","drummer",12)
+    test.doesThisJob()
 
 }
 
