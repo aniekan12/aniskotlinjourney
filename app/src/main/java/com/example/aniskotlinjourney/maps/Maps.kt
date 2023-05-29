@@ -10,7 +10,14 @@ fun main(){
 
     //mutable map
 
-    var mutableMap = mutableMapOf("name" to "ani","house" to "maitama")
-    print(mutableMap)
+    var mutableMap = mutableMapOf<String, String>("name" to "ani","house" to "maitama")
+    mutableMap.put("salary", 5000.toString())
+    println(mutableMap["salary"])
+
+    mutableMap.remove("salary")
+
+    println(mutableMap)
+
+
 
 }
